@@ -1,0 +1,27 @@
+
+.contenedor {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+/* /* medidas absolutas
+400 pixeles
+ */
+
+.pixeles {
+    width: 200px;
+}
+
+/* 4 pulgadas */
+
+.pulgadas {
+    width: 2cm;
+}
+
+/* 20 centimetros */
+
+.centimetros {
+    width: auto;
+}

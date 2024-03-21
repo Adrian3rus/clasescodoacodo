@@ -1,0 +1,23 @@
+/* medidas relativas */
+
+
+.contenedor {
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 3px;
+}
+
+
+.segunEm {
+    width: 10em;
+}
+
+.segunRem {
+    width: 10rem;
+}
+
+.segunPorcentaje {
+    width: 10%;
+}
+
