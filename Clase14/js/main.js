@@ -24,9 +24,28 @@ esIgual = "4" === 4; // false
 // **************************************************
 // Conjunción
 
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+
 // Disyunción
 
+console.log(true || false)
+console.log(false || false)
+console.log(true || true)
+console.log(false || true)
+
 // Negación
+
+
+console.log(!true)
+console.log(!false)
+
+
+let operadoresCombinados = 5 ** 3 > 301 % 3 && !true || "hola" != "HOLA";
+
+console.log(operadoresCombinados)
 
 // CUADROS DE DIÁLOGO (alert, prompt, confirm)
 // No son de uso habitual, pero en éste punto nos sirven para interactuar con nuestra página, sitio o aplicación.
