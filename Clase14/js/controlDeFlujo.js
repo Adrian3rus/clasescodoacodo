@@ -6,14 +6,19 @@ console.log("comienzo")
 
 
 let limite = 5;
-let contador =0;
+let contador = 0;
 let listaVacia = document.querySelector('#lista');
+console.log(listaVacia);
+console.log(typeof listaVacia);
+
+let listaConDatos = document.querySelector('#listaConDatos');
+console.log(listaConDatos)
 
 
 /* let listaConDatos = document.querySelector('#listaConDatos')
 console.log(listaConDatos) */
 
-while (contador < limite){
+/* while (contador < limite){
     //creo la etiqueta <li>
     let item = document.createElement('li');
     // cadena dinamica y la agrego como contenido a la etiqueta
@@ -22,7 +27,7 @@ while (contador < limite){
     contador++ //contador = contador +1
 }
 
-
+ */
 
 
 console.log("final")
