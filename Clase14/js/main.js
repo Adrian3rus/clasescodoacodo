@@ -53,3 +53,12 @@ console.log(operadoresCombinados)
 // No hay una forma estándar de cambiar su aspecto con CSS.
 // Dependen de la configuración regional del navegador, lo que significa que puedes tener una página en un idioma pero un mensaje de error en otro idioma.
 
+
+let edad = "cincuenta"
+let validadEdad = Number(edad)
+
+if (edad > 0 && edad < 120 && validadEdad != NaN){
+     if (validadEdad < 16){
+          console.log("Aun no podes votar. ");
+     } else if (validadEdad)
+}
